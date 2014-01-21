@@ -1,0 +1,18 @@
+Wzorzec 1: Observer
+	klasy uczestnicz¹ce: Wydarzenie, Kalendarz
+	metody: WyswietlGUI
+	Dodaj¹c wydarzenie do kalendarza, kalendarz staje siê obserwatorem tego wydarzenia.
+	Wywo³ywana jest metoda Attach(). Kiedy to wydarzenie zmieni swój stan,
+	do wszystkich podpiêtych kalendarzy wysy³ane jest powiadomienie (Notify()),
+	które przekazuje do kalendarzy zmieniony stan wydarzenia. Wówczas kalendarze reaguj¹ w zale¿noœci
+	od otrzymanego nowego stanu Wydarzenia.
+	
+Wzorzec 2: Proxy
+	klasy uczestnicz¹ce: Formularz, Proxy, Klient (nowa klasa)
+	metody: WyslijPowiadomienie()
+	nowe metody: Attach(o: IKalendarz), Detach(o: IKalendarz), Notify(), Update()
+	W naszym projekcie klasa Formularz odpowiedzialna jest za renderowanie stosownego GUI (strony internetowej)
+	Klasa Proxy poœredniczy w tym renderowaniu, wyœwietlaj¹c ró¿ne strony w zale¿noœci od rodzaju u¿ytkownika
+	oraz domyœln¹ stronê domow¹ dla u¿ytkowników niezalogowanych.
+	Nowe metody zostan¹ dodane do diagramu klas projektu.
+
