@@ -1,0 +1,13 @@
+UZUPE£NIENIE PROFILU U¯YTKOWNIKA:	
+  
+  1. U¿ytkownik loguje siê.
+  2. U¿ytkownik klika "zaktualizuj swój profil".
+  3. U¿ytkownik podaje swoje dane uzupe³niaj¹ce (np. przedzia³ wiekowy, miasto)
+  4. U¿ytkownik wybiera rodzaje imprez, które go interesuj¹ (np wystawy, koncerty, wydarzenia sportowe)
+  5. U¿ytkownik precyzuje swój profil w obrêbie wybranych wczeœniej rodzajów imprez.(np. gatunek muzyki dla koncertów, dyscyplina sportowa dla wydarzeñ sportowych).
+  6. U¿ytkownik klika "zapisz".
+  7. System aktualizuje informacje o U¿ytkowniku
+
+Rozszerzenia:
+  3a. U¿ytkownik niew³aœciwie wype³nia pole.
+    3a1. System wyœwietla stosowny komunikat o b³êdzie.

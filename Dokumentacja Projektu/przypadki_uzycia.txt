@@ -1,0 +1,6 @@
+1. Za³o¿enie konta
+2. Uzupe³nienie profilu u¿ytkownika.
+3. Dodawanie nowej imprezy do bazy
+4. Usuwanie imprezy z bazy
+5. Tworzenie kategorii.
+6. Dodanie imprezy do kalendarza

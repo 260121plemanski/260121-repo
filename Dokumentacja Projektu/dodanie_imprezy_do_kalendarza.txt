@@ -1,0 +1,12 @@
+DODANIE IMPREZY DO KALENDARZA:
+
+  1. Zalogowany U¿ytkownik otwiera zak³adkê "Mój kalendarz" i klika "dodaj imprezê do kalendarza".
+  2. System podaje listê sugerowanych imprez oraz oferuje opcjê ich wyszukiwania.
+  3. U¿ytkownik znajduje interesuj¹c¹ go imprezê i klika "dodaj" 
+  4. System dodaje imprezê do kalendarza i wyœwietla opcjê o powiadomieniach.
+  5. U¿ytkownik wybiera sposób powiadomienia.
+
+Rozszerzenia:
+  3a. Wybrana impreza koliduje z inn¹ w kalendarzu.
+    3a1. System wyœwietla stosowne ostrze¿enie.
+    3a2. U¿ytkownik decyduje o dodaniu imprezy.

@@ -1,0 +1,15 @@
+DODAWANIE NOWEJ IMPREZY DO BAZY
+
+  1. Administrator loguje siê do swojego konta.
+  2. Administrator klika "dodaj now¹ imprezê"
+  3. Administrator wype³nia odpowiednie pola (nazwa, lokalizacja, tagi) zgodnie z tym co poda³ organizator imprezy.
+  4. Administrator dodaje opis wydarzenia.
+  5. System aktualizuje bazê o nowe wydarzenie.
+  6. System wysy³a do zainteresowanych u¿ytkowników powiadomienie o nowym wydarzeniu.
+
+Rozszerzenia
+  3a. Wydarzenie o podanej nazwie jest ju¿ w bazie.
+    3a1. Administrator musi podaæ inn¹ nazwê.
+  3b. Wydarzenie pokrywa siê z inn¹ imprez¹ (to samo miejsce i czas)
+    3b1. Administrator weryfikuje informacje otrzymane od organizatora.
+    3b2. Administrator podejmuje odpowiednie kroki.
